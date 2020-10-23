@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: antiquewhite;
+}
+h3,h2{
+	text-align: center;
+}
+.ozel{
+	background-color: black;
+	color: white;
+	font-weight: 600;
+	line-height: 50px;
+	height: 50px;
+	width: 800px;
+	margin: 10px auto;
+	text-align: center;
+	border-radius: 50px;
+	font-size: 24px;
+}
+span{
+	color: red;
+}
+.container{
+	height: 250px;
+	width: 800px;
+	margin: 0px auto 0px auto;
+}
+.kutu{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin-right: 50px;
+	text-align: center;
+}
+.kutu1{
+	background-color: aqua;
+	transition: background-color,border 1s;
+}
+.kutu1:hover{
+	background-color: red;
+	border: 2px dotted black;
+}
+.kutu2{
+	background-color: black;
+	transition: background-color 1s;
+}
+.kutu2:hover{
+	background-color: yellow;
+	border: 2px dotted black;
+}
+.kutu3{
+	background-color: green;
+	transition: border 1s;
+}
+.kutu3:hover{
+	background-color: blue;
+	border: 2px dotted black;
+}
+.kutu4{
+	background-color: aqua;
+	transition: border 3s;
+}
+.kutu4:hover{
+	background-color: red;
+	border: 2px dotted black;
+}
+.kutu5{
+	background-color: black;
+	transition: background-color 4s;
+}
+.kutu5:hover{
+	background-color: yellow;
+	border: 2px dotted black;
+}
+.kutu6{
+	background-color: green;
+	transition: all .5s;
+}
+.kutu6:hover{
+	background-color: blue;
+	border: 2px dotted black;
+}
+.kutu7{
+	background-color: aqua;
+	transition: border 3s ease;
+}
+.kutu7:hover{
+	background-color: red;
+	border: 2px dotted black;
+}
+.kutu8{
+	background-color: black;
+	transition: background-color 4s ease-in;
+}
+.kutu8:hover{
+	background-color: yellow;
+	border: 2px dotted black;
+}
+.kutu9{
+	background-color: green;
+	transition: all .5s linear;
+}
+.kutu9:hover{
+	background-color: blue;
+	border: 2px dotted black;
+}
+.kutu10{
+	background-color: aqua;
+	transition: border 3s ease 3s;
+}
+.kutu10:hover{
+	background-color: red;
+	border: 2px dotted black;
+}
+.kutu11{
+	background-color: black;
+	transition: background-color 4s ease-in 4s;
+}
+.kutu11:hover{
+	background-color: yellow;
+	border: 2px dotted black;
+}
+.kutu12{
+	background-color: green;
+	transition: all .5s linear 5s;
+}
+.kutu12:hover{
+	background-color: blue;
+	border: 2px dotted black;
+}

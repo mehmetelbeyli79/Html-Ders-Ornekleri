@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>İframe Yapısı</title>
+<style type="text/css">
+#body {
+	background-image: url(bg.png);
+	background-repeat: repeat-x;
+}
+#ana_cerceve {
+	height: auto;
+	width: 800px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#yan_menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+}
+#ust_menu {
+	background-color: #00F;
+	padding: 0px;
+	height: 40px;
+	width: 800px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: 2px solid #F90;
+}
+#ust_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#ust_menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	text-decoration: none;
+}
+#banner {
+	background-image: url(banner.png);
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 800px;
+	border: 2px solid #F90;
+}
+#ust_menu ul li {
+	line-height: 40px;
+	padding: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 55px;
+}
+#yan_menu {
+	background-color: #00F;
+	height: 400px;
+	width: 150px;
+	border: 2px solid #F90;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+}
+#sag_menu {
+	background-color: #00F;
+	padding: 0px;
+	float: right;
+	height: 400px;
+	width: 128px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	border: 2px solid #FC0;
+}
+#sag_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#orta {
+	background-color: #09F;
+	padding: 0px;
+	float: left;
+	height: 400px;
+	width: 500px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	border: 2px solid #FC0;
+}
+#yan_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#yan_menu ul li {
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #FC0;
+}
+#sag_menu ul li {
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FC0;
+}
+#footer {
+	padding: 0px;
+	height: 50px;
+	width: 800px;
+	margin-top: 5px;
+	border: 2px solid #FC0;
+	background-color: #0C9;
+}
+.clear {
+	clear: both;
+}
+#sag_menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+</style>
+</head>
+
+<body id="body">
+<div id="ana_cerceve">
+  <div id="banner"></div>
+    <div id="ust_menu">
+    
+   	  <ul>
+        <li><a href="anasayfa.html" target="orta">Anasayfa</a></li>
+        <li><a href="urunler.html" target="orta">Ürünler</a></li>
+        <li><a href="iletisim.html" target="orta">İletişim</a></li>
+        <li><a href="kimiz.html" target="orta">Biz Kimiz?</a></li>
+        </ul>
+    </div>  
+    
+    <div id="yan_menu">
+    
+    	<ul>
+        <li><a href="anasayfa.html" target="orta">Anasayfa</a></li>
+        <li><a href="urunler.html" target="orta">Ürünler</a></li>
+        <li><a href="iletisim.html" target="orta">İletişim</a></li>
+        <li><a href="kimiz.html" target="orta">Biz Kimiz?</a></li>
+        </ul>
+    </div>  	
+    
+    <div id="orta"><iframe name="orta" scrolling="no" height="400" width="500" frameborder="0" src="anasayfa.html"></iframe>
+    
+    
+    </div>
+    
+    <div id="sag_menu">
+    	<h3 style="color:#FFF;text-align:center">Önemli Bağlantılar</h3>
+        <ul>
+            <li><a href="http://www.google.com" target="_blank">Google</a></li>
+            <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="http://www.bizimsite.com" target="_blank">BizimSite</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">CopyRight Erciş Teknik ve Endüstri Meslek Lisesi...</div>
+</div>
+</body>
+</html>

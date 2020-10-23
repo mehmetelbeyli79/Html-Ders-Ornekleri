@@ -1,0 +1,56 @@
+#menu {
+	background-color: #0FF;
+	padding: 0px;
+	height: 50px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu ul {
+	
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu ul li {
+	background-image: url(menu_arka.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	float: right;
+	height: 35px;
+	width: 85px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	border-right-width: thin;
+	border-left-width: thin;
+	text-align: center;
+}
+#menu ul li:hover {
+	background-image: url(menu_arka_hover.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	float: right;
+	height: 35px;
+	width: 100px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#menu ul li a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}

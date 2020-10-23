@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ana_cerceve {
+	padding: 0px;
+	height: auto;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#sol_menu {
+	background-color: #0FF;
+	padding: 0px;
+	height: 400px;
+	width: 150px;
+	margin: 0px;
+	float: left;
+	font-size: 36px;
+	font-weight: bold;
+}
+#icerik {
+	padding: 0px;
+	height: 400px;
+	width: 827px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	background-color: #90F;
+	float: right;
+	font-size: 36px;
+	font-weight: bold;
+}
+#orta {
+	padding: 0px;
+	height: 400px;
+	width: 980px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#footer {
+	background-color: #F0F;
+	padding: 0px;
+	height: 30px;
+	width: 980px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+
+#banner {
+	background-color: #9F0;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 980px;
+}
+#ust_menu {
+	background-color: #06F;
+	padding: 0px;
+	height: 50px;
+	width: 980px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

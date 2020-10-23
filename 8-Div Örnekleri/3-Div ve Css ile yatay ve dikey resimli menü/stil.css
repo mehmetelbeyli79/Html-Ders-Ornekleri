@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ana_cerceve {
+	padding: 0px;
+	height: auto;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#kayan_yazi {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	padding: 0px;
+	height: 30px;
+	width: 800px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	background-color: #0F9;
+}
+#ust_menu {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	width: 800px;
+	background-color: #0FF;
+}
+
+#header {
+	background-image: url(images/banner.fw.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 800px;
+}
+#ana_cerceve #ust_menu ul li a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+#ana_cerceve #ust_menu ul li a:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	text-decoration: none;
+}
+#ana_cerceve #orta {
+	margin: 0px;
+	padding: 0px;
+}
+#sol_menu {
+	background-color: #0FF;
+	padding: 0px;
+	height: 500px;
+	width: 200px;
+	margin-top: 3px;
+	float: left;
+}
+#icerik {
+	background-color: #0FF;
+	padding: 0px;
+	height: 500px;
+	width: 595px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	float: left;
+}
+body {
+	background-image: url(images/arka.jpg);
+}
+#ana_cerceve #orta #sol_menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#ana_cerceve #orta #sol_menu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+#ana_cerceve #footer {
+	background-color: #39F;
+	padding: 0px;
+	height: 50px;
+	width: 800px;
+	margin-top: 3px;
+	float: left;
+	text-align: right;
+	vertical-align: middle;
+}
+#ana_cerceve #footer img {
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 50px;
+	width: 50px;
+}
+
+
+
+
+#ana_cerceve #orta #sol_menu ul li {
+	padding: 0px;
+	height: 50px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	background-color: #9C0;
+}
+#ana_cerceve #orta #sol_menu ul li:hover {
+	padding: 0px;
+	height: 50px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	background-color: #0F0;
+}
+
+
+
+
+
+
+
+#ana_cerceve #ust_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#ana_cerceve #ust_menu ul li {
+	float: left;
+	margin-right: 15px;
+}
+#ana_cerceve #ust_menu ul li img {
+	margin-right: 5px;
+	padding: 0px;
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+}
+#orta #sol_menu ul li img {
+	padding: 0px;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}

@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	margin: 0px;
+	padding: 0px;
+}
+#ana_cerceve {
+	padding: 0px;
+	height: auto;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#banner {
+	background-color: #90F;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 930px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: overline;
+	text-align: center;
+}
+#ust_menu {
+	padding: 0px;
+	height: 60px;
+	width: 930px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #9F3;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #00F;
+	text-decoration: underline;
+	text-align: center;
+}
+#orta {
+	padding: 0px;
+	height: 300px;
+	width: 930px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#orta_sol {
+	background-color: #3F3;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 300px;
+	width: 150px;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	font-weight: bold;
+	color: #606;
+	text-decoration: underline;
+	text-align: center;
+	vertical-align: middle;
+}
+#orta_orta {
+	padding: 0px;
+	float: left;
+	height: 300px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	background-color: #00F;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0;
+	text-decoration: underline;
+	text-align: center;
+}
+#orta_sag {
+	background-color: #909;
+	padding: 0px;
+	float: right;
+	height: 300px;
+	width: 170px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #9FF;
+	text-decoration: underline;
+	text-align: center;
+}
+#footer {
+	background-color: #0FF;
+	padding: 0px;
+	height: 50px;
+	width: 930px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+	text-align: center;
+}

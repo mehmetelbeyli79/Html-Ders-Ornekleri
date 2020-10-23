@@ -1,0 +1,51 @@
+#menu {
+	background-color: #0FF;
+	padding: 0px;
+	height: 400px;
+	width: 150px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	background-image: url(menu_arka.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	height: 35px;
+	width: 150px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+#menu ul li:hover {
+	background-image: url(menu_arka_hover.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	height: 35px;
+	width: 150px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#menu ul li a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}

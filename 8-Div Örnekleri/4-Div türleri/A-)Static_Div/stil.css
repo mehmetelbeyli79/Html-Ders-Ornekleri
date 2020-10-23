@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	background-color: #0F0;
+	height: 100px;
+	width: 900px;
+	position: static;
+	margin-right: auto;
+	margin-left: auto;
+	top: 100px;
+}
+#image {
+	height: 256px;
+	width: 256px;
+	margin-right: auto;
+	margin-left: auto;
+	position: static;
+	top: 120px;
+	right: 100px;
+}
+#ortala {
+	height: 600px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}

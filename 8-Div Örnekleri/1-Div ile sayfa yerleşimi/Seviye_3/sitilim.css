@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	margin: 0px;
+	padding: 0px;
+}
+#ana_cerceve {
+	padding: 0px;
+	height: auto;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#banner {
+	background-color: #00F;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 930px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0;
+	text-decoration: underline;
+	text-align: center;
+}
+#sol_taraf {
+	padding: 0px;
+	float: left;
+	height: 505px;
+	width: 200px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.baslik {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	width: 200px;
+	color: #9F3;
+	background-color: #06F;
+}
+.sol_menu {
+	padding: 0px;
+	height: 450px;
+	width: 200px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+	background-color: #0FF;
+	text-align: center;
+}
+#sag_taraf {
+	padding: 0px;
+	height: 505px;
+	width: 725px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	float: right;
+}
+#ust_menu {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0F0;
+	text-decoration: underline;
+	background-color: #003;
+	text-align: center;
+	width: 725px;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+}
+#icerik {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #F09;
+	text-decoration: underline;
+	background-color: #0CC;
+	text-align: center;
+	padding: 0px;
+	height: 450px;
+	width: 725px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0F9;
+	text-decoration: underline;
+	background-color: #600;
+	text-align: center;
+	padding: 0px;
+	height: 50px;
+	width: 930px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
